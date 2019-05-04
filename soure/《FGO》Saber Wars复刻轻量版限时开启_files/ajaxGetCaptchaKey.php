@@ -1,0 +1,1 @@
+window.captcha_key = "d781b7ac450e11139e2be79fc545af0c";
