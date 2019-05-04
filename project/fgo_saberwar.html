@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Saber Wars复刻轻量版限时开启</title>
+  <link rel="stylesheet" href="CSS/comment.css">
+  <link rel="stylesheet" href="CSS/saber_wars.css">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="img/saberwar/favicon.ico">
+  <style>
+  
+  </style>
+</head>
+<body>
+  <div class="bilibi-header-m">
+  </div>
+  <section class="section1">
+    <div class="bg-top"></div>
+    <div class="bg-bottom"></div>
+    <div class="content">
+        <div class="starshine pt-page-delay100 stars"></div>
+        <div class="starshine pt-page-delay500 stars"></div>
+        <div class="starshine pt-page-delay1000 stars"></div>
+        <div class="starshine pt-page-delay1200 stars"></div>
+        <div class="starshine pt-page-delay300 stars"></div>
+        <div class="starshine pt-page-delay800 stars"></div>
+        <div class="starshine pt-page-delay1800 stars"></div>
+        <div class="starshine pt-page-delay2000 stars"></div>
+        <div class="starshine pt-page-delay1500 stars"></div>
+        <div class="starshine pt-page-delay200 stars"></div>
+        <div class="starshine pt-page-delay700 stars"></div>
+        <div class="starshine pt-page-delay1300 stars"></div>
+        <div class="starshine pt-page-delay1500 stars"></div>
+        <div class="starshine pt-page-delay400 stars"></div>
+        <div class="starshine pt-page-delay900 stars"></div>
+        <div class="starshine pt-page-delay1900 stars"></div>
+        <div class="starshine pt-page-delay2200 stars"></div>
+        <div class="starshine pt-page-delay1600 stars"></div>
+        <div class="star-fly starf01 starFly pt-page-delay100"></div>
+        <div class="star-fly starf02 starFly pt-page-delay1000"></div>
+        <div class="star-fly starf03 starFly pt-page-delay4200"></div>
+        <div class="star-fly starf04 starFly pt-page-delay3000"></div>
+        <div class="star-fly starf05 starFly pt-page-delay5200"></div>
+        <div class="star-fly starf06 starFly pt-page-delay2000"></div>
+        <div class="btn-wds">
+          <a target="_blank" href="#"></a>
+          <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/3383"></a>
+        </div>
+        <div class="btn-detail" onclick="show3()"></div>
+    </div>
+    <div class="copyright"></div>
+    <ul class="sns-list">
+      <li class="snsitem share"  onclick="show1()">
+        <div id="share-content" style="display:none">
+          <ul>
+            <li class="icon icon-bili"></li>
+            <li class="icon icon-weibo"></li>
+            <li class="icon icon-qq"></li>
+            <li class="icon icon-qzone"></li>
+            <li class="icon icon-tieba"></li>
+          </ul>
+        </div>
+      </li>
+      <li class="snsitem dl" onclick="show2()">
+        <div id="dl-content" style="display:none">
+          <img src="img/saberwar/qrcode-dl.png" alt="加载错误" class="qrcode-dl">
+        </div>
+      </li>
+      <li class="snsitem gm">
+        <a href="//space.bilibili.com/233108841/dynamic" target="_blank" rel="noopener noreferrer"></a>
+      </li>
+    </ul>
+  </section>
+  <div class="BiliFooter footer-public">
+    <div class="footer-box">
+      <div class="footer-logo-list">
+        <a class="footer-logo" href="https://www.bilibili.com/"></a>
+        <div class="footer-culture-logo">
+          <img src="img/saberwar/culture-logo.png">
+        </div>
+      </div>
+      <div class="footer-text">
+        <p>
+          <a href="https://game.bilibili.com/">游戏中心</a>　|　<a href="https://account.bilibili.com/" target="_blank">账号安全</a>　|　<a href="https://account.bilibili.com/resetpwd" target="_blank">找回密码</a>　|　<a href="https://game.bilibili.com/jiazhang/" target="_blank">家长监控</a>　|　<a href="https://game.bilibili.com/yhxy/" target="_blank">用户协议</a>
+        </p>
+        <p class="p3" style="text-align:center"></p>
+        <p class="p-18">本网络游戏适合年满18岁（含）以上的玩家使用</p>
+        <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+        <p>上海宽娱数码科技有限公司 | COPYRIGHT © 2009-2019 BILIBILI ALL RIGHTS RESERVED.</p>
+        <p>互联网ICP备案：沪ICP备13002172号-3 沪ICP证：沪B2-20100043 | 沪网文[2016]2296-134号</p>
+        <p class="p-18">文网游进字〔2016〕0098 号 | ISBN 978-7-498-01451-1</p>
+        <p>
+          <a class="record" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002002436" target="_blank">
+            <img style="vertical-align:top;width:20px;height:20px" src="img/saberwar/record-logo.png"> 沪公网安备 31011002002436 号
+          </a>
+        </p>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  <div class="role-dec" id="x-detail" style="display: none">
+    <div class="bg">
+      <div onclick="show3()"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function show1(){
+      var box = document.querySelector("#share-content");
+      //document.getElementById(share-content)
+      if (box.style.display == "block") {
+        box.style.display = "none";
+      }else{
+        box.style.display = "block";
+      }
+      //box.setAttribute("style","display:block");
+    }
+    function show2(){
+      var box = document.querySelector("#dl-content");
+      if (box.style.display == "block") {
+        box.style.display = "none";
+      }else{
+        box.style.display = "block";
+      }
+    }
+    function show3(){
+      var box = document.querySelector("#x-detail");
+      if (box.style.display == "block") {
+        box.style.display = "none";
+      }else{
+        box.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>

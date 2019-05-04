@@ -1,0 +1,12 @@
+body{
+  font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+}
+a, b, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, img, input, label, li, ol, option, p, select, span, strong, table, td, textarea, tr, ul{
+  padding: 0;
+  margin: 0;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

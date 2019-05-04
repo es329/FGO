@@ -1,0 +1,91 @@
+body{
+    font: 12px/1.5 'Microsoft Yahei';
+    color: #161616;
+    background-color: #fff;
+}
+body, html {
+    min-width: 1280px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#page{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#page .content{
+    width: 100%;
+    padding-top: 119.79167%;
+    position: relative;
+    background: url(/img/fgo_index/content_bg.png);
+    background-size: 1.04167% auto;
+}
+.roles-wrap{
+    width: 100%;
+    position: absolute;
+    top: 21.73913%;
+    left: 0;
+    padding-top: 34.32292%;
+    background: url(/img/fgo_index/bg_grd.png);
+    background-size: auto 100%;
+    overflow: hidden;
+}
+.roles-wrap .roles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.roles-wrap .role-item{
+    float: left;
+    width: 12.5%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.roles-wrap .role-item .off{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.roles-wrap .role-item .on{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.roles-wrap .role-item .off .cl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -71px 0 0 -18px;
+    z-index: 5;
+}
+.roles-wrap .role-item .on .cl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.roles-wrap .role-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,36,99,0);
+}
+.roles-wrap .roles.active .role-item {
+    width: 9.01042%
+  }
+.roles-wrap .roles.active .role-item.current {
+    width: 36.04167%
+}
