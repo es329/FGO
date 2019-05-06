@@ -166,20 +166,3 @@ body, html {
     width: 21.875%;
     padding-top: 6.35417%;
 }
-#footer{
-    position: relative;
-    background-color: #030e2c;
-}
-#footer .back-top{
-    position: absolute;
-    bottom: 190px;
-    right: 8.22917%;
-    width: 5.98958%;
-    padding-top: 2.96875%;
-    background: url(../img/fgo_index/to_top.png) no-repeat;
-}
-#footer .back-top a{
-    display: block;
-    width: 100%;
-    height: 100%;
-}

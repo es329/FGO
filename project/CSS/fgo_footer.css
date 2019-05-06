@@ -1,0 +1,63 @@
+#footer{
+  position: relative;
+  background-color: #030e2c;
+}
+#footer .back-top{
+  position: absolute;
+  bottom: 190px;
+  right: 8.22917%;
+  width: 5.98958%;
+  padding-top: 2.96875%;
+  background: url(../img/fgo_index/to_top.png) no-repeat;
+}
+#footer .back-top a{
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+}
+.footer-public .footer-box{
+  width: 980px;
+  min-height: 120px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font: 12px/20px "Microsoft Yahei",sans-serif;
+  overflow: hidden;
+  text-align: left;
+}
+.footer-public .footer-box a {
+  font: inherit;
+  text-decoration: none;
+  color: #0089bc;
+}
+.footer-box .footer-logo-list{
+  float: left;
+  margin-top: 20px;
+
+}
+.footer-logo-list .footer-logo{
+  background: url(../img/fgo_index/bilibili-logo.png) no-repeat;
+  float: left;
+  border-right: 1px solid #0089bc;
+  width: 111px;
+  height: 50px;
+  padding-right: 20px;  
+}
+.footer-logo-list .footer-logo-other{
+  float: left;
+}
+.footer-logo-list .footer-culture-logo{
+  float: left;
+}
+.footer-logo-list .footer-culture-logo img{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: -4px;
+}
+.footer-public .footer-nettag {
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+}
+  
