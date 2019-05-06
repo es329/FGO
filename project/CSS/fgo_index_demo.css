@@ -8,6 +8,7 @@ body, html {
     max-width: 1920px;
     margin: 0 auto;
 }
+
 #page{
     width: 100%;
     margin-left: auto;
@@ -18,8 +19,28 @@ body, html {
     width: 100%;
     padding-top: 119.79167%;
     position: relative;
-    background: url(/img/fgo_index/content_bg.png);
+    background: url(../img/fgo_index/content_bg.png);
     background-size: 1.04167% auto;
+}
+.content .c-title{
+    position: absolute;
+    top: 0;
+    left: 34.79167%;
+    width: 31.09375%;
+    padding-top: 11.25%;
+    margin-top: 7.03125%;
+    background: url(../img/fgo_index/slogan.png);
+    background-size: 100% 100%;
+}
+.content .c-tag{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32.29167%;;
+    padding-top: 6.25%;
+    margin-top: 18.95833%;
+    background: url(../img/fgo_index/tag.png);
+    background-size: 100% 100%;
 }
 .roles-wrap{
     width: 100%;
@@ -27,7 +48,7 @@ body, html {
     top: 21.73913%;
     left: 0;
     padding-top: 34.32292%;
-    background: url(/img/fgo_index/bg_grd.png);
+    background: url(../img/fgo_index/bg_grd.png);
     background-size: auto 100%;
     overflow: hidden;
 }
@@ -88,4 +109,77 @@ body, html {
   }
 .roles-wrap .roles.active .role-item.current {
     width: 36.04167%
+}
+.content .c-staff{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 59.58333%;
+}
+.c-staff .staff-item{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.c-staff .staff-title{
+    background-image: url(../img/fgo_index/bot-tit.png);
+    top: 5.76923%;
+    width: 24.42708%;
+    padding-top: 4.42708%;
+}
+.c-staff .staff-1{
+    background-image: url(../img/fgo_index/staff1.png);
+    top: 17.83217%;
+    width: 35.26042%;
+    padding-top: 5.3125%;
+}
+.c-staff .staff-2{
+    background-image: url(../img/fgo_index/staff2.png);
+    top: 29.02098%;
+    width: 13.07292%;
+    padding-top: 4.01042%;
+}
+.c-staff .staff-3{
+    background-image: url(../img/fgo_index/staff3.png);
+    top: 40.47203%;
+    width: 34.47917%;
+    padding-top: 4.58333%;
+}
+.c-staff .staff-4{
+    background-image: url(../img/fgo_index/staff4.png);
+    top: 52.27273%;
+    width: 31.04167%;
+    padding-top: 8.80208%;
+}
+.c-staff .staff-5{
+    background-image: url(../img/fgo_index/staff5.png);
+    top: 70.97902%;
+    width: 30.10417%;
+    padding-top: 4.58333%;
+}
+.c-staff .staff-6{
+    background-image: url(../img/fgo_index/staff6.png);
+    top: 83.04196%;
+    width: 21.875%;
+    padding-top: 6.35417%;
+}
+#footer{
+    position: relative;
+    background-color: #030e2c;
+}
+#footer .back-top{
+    position: absolute;
+    bottom: 190px;
+    right: 8.22917%;
+    width: 5.98958%;
+    padding-top: 2.96875%;
+    background: url(../img/fgo_index/to_top.png) no-repeat;
+}
+#footer .back-top a{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
