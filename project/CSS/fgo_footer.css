@@ -7,13 +7,13 @@
   bottom: 190px;
   right: 8.22917%;
   width: 5.98958%;
-  padding-top: 2.96875%;
   background: url(../img/fgo_index/to_top.png) no-repeat;
+  background-size: 100% auto;
 }
 #footer .back-top a{
   display: block;
   width: 100%;
-  padding-top: 100%;
+  padding-top: 48.5%;
 }
 .footer-public .footer-box{
   width: 980px;
@@ -55,9 +55,20 @@
   margin-left: 20px;
   margin-top: -4px;
 }
-.footer-public .footer-nettag {
+.footer-public .footer-nettag{
   display: inline-block;
   float: left;
   margin-left: 15px;
 }
-  
+.footer-public .footer-nettag img{
+  height: 50px;
+}
+.footer-public .footer-text{
+  float: right;
+}
+.footer-public .footer-text p,.footer-public .footer-text a.record{
+  color: #7d7d7d;
+}
+.footer-public .footer-text a.record:hover{
+  color: #0089bc;
+}
