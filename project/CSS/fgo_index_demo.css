@@ -8,6 +8,81 @@ body, html {
     max-width: 1920px;
     margin: 0 auto;
 }
+.nav{
+    position: relative;
+    padding-top: 3.59375%;
+    background: url(../img/fgo_index/nav-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.nav .nav-item{
+    display: block;
+    position: absolute;
+    transition: opacity .2s
+}
+.nav .nav-item:hover {
+    opacity: .6;
+    text-decoration: none
+}
+.nav .nav-item img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.nav .nav-item.home {
+    top: 14.49275%;
+    left: 19.53125%;
+    width: 5.36458%;
+    padding-top: 2.44792%
+}
+.nav .nav-item.news {
+    top: 28.98551%;
+    left: 26.97917%;
+    width: 4.73958%;
+    padding-top: 1.71875%
+}
+.nav .nav-item.world {
+    top: 28.98551%;
+    left: 33.38542%;
+    width: 5.52083%;
+    padding-top: 1.71875%
+}
+.nav .nav-item.servant {
+    top: 28.98551%;
+    left: 40.46875%;
+    width: 4.6875%;
+    padding-top: 1.71875%
+}
+.nav .nav-item.htp {
+    top: 28.98551%;
+    left: 46.71875%;
+    width: 4.89583%;
+    padding-top: 1.82292%
+}
+.nav .nav-item.gallery {
+    top: 28.98551%;
+    left: 53.125%;
+    width: 5.52083%;
+    padding-top: 1.82292%
+}
+.nav .nav-item.staff {
+    top: 28.98551%;
+    left: 60.20833%;
+    width: 4.6875%;
+    padding-top: 1.71875%
+}
+.nav .nav-item.sns {
+    top: 28.98551%;
+    left: 66.25%;
+    width: 4.6875%;
+    padding-top: 1.71875%
+}
+.nav .nav-item.sns:hover {
+    opacity: 1
+}
 
 #page{
     width: 100%;
