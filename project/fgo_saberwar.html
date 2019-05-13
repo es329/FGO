@@ -47,11 +47,11 @@
           <a target="_blank" href="#"></a>
           <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/3383"></a>
         </div>
-        <div class="btn-detail" onclick="show3()"></div>
+        <div class="btn-detail" ></div>
     </div>
     <div class="copyright"></div>
     <ul class="sns-list">
-      <li class="snsitem share"  onclick="show1()">
+      <li class="snsitem share" >
         <div id="share-content" style="display:none">
           <ul>
             <li class="icon icon-bili"></li>
@@ -62,7 +62,7 @@
           </ul>
         </div>
       </li>
-      <li class="snsitem dl" onclick="show2()">
+      <li class="snsitem dl">
         <div id="dl-content" style="display:none">
           <img src="./img/saberwar/qrcode-dl.png" alt="加载错误" class="qrcode-dl">
         </div>
@@ -101,36 +101,28 @@
   </div>
   <div class="role-dec" id="x-detail" style="display: none">
     <div class="bg">
-      <div onclick="show3()"></div>
+      <div></div>
     </div>
   </div>
   <script type="text/javascript">
-    function show1(){
-      var box = document.querySelector("#share-content");
-      //document.getElementById(share-content)
-      if (box.style.display == "block") {
-        box.style.display = "none";
-      }else{
-        box.style.display = "block";
+    (function(){
+      var btn1 = document.querySelector(".sns-list .snsitem.share");
+      var box1 = document.querySelector("#share-content");
+      btn1.onclick=function(){ chgDsp(box1) }
+      var btn2 = document.querySelector(".sns-list .snsitem.dl");
+      var box2 = document.querySelector("#dl-content");
+      btn2.onclick=function(){ chgDsp(box2) }
+      var btn3 = document.querySelector(".btn-detail");
+      var box3 = document.querySelector("#x-detail");
+      box3.onclick=btn3.onclick=function(){ chgDsp(box3) }
+      function chgDsp(box){
+        if (box.style.display == "block") {
+          box.style.display = "none";
+        }else{
+          box.style.display = "block";
+        }
       }
-      //box.setAttribute("style","display:block");
-    }
-    function show2(){
-      var box = document.querySelector("#dl-content");
-      if (box.style.display == "block") {
-        box.style.display = "none";
-      }else{
-        box.style.display = "block";
-      }
-    }
-    function show3(){
-      var box = document.querySelector("#x-detail");
-      if (box.style.display == "block") {
-        box.style.display = "none";
-      }else{
-        box.style.display = "block";
-      }
-    }
+    })()
   </script>
 </body>
 </html>
