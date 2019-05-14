@@ -37,12 +37,79 @@
       <div class="nav-item sns">
         <img src="./img/fgo_index/sns.png" alt="关于我们">
       </div>
-      <div class="sns-warp">
-        
+      <div class="sns-wrap">
+        <span class="sns-icon qq">
+          <div class="icon-bg"></div>
+        </span>
+        <span class="sns-icon weixin">
+          <div class="icon-bg"></div>
+          <div class="sns-detail">
+            <img src="./img/fgo_index/qrcode-weixin.jpg">
+            <h5>fatebiligame</h5>
+            <p>扫描左侧二维码<br>
+              关注公众号
+            </p>
+          </div>
+        </span>
+        <a href="https://weibo.com/fateGO?from=myfollow_all" target="_blank" class="sns-icon weibo"></a>
+        <a href="https://space.bilibili.com/233108841/dynamic" target="_blank" class="sns-icon bili"></a>
       </div>
     </div>
     <div id="page">
+      <div class="head">
+        <span class="swiper-header">
+          <div class="header header-1"></div>
+          <div class="header header-2" display="none"></div>
+          <div class="header header-3" display="none"></div>
+        </span>
+        <div class="header-left collapse">
+
+        </div>
+      </div>
       <div id="mainly">
+        <div class="main-top clearfix">
+          <div class="grid">
+            <div class="slideshow">
+              <div>
+                <ul class="slideshow-carousel clearfix">
+                  <li class="slideshow-slide">
+                    <a target="_blank" href="./fgo_saberwar.html"> <img src="./img/fgo_index/92703431672038bcaba7f4ea7712224e9fcacb02.jpg"> </a>
+                  </li>
+                  <li class="slideshow-slide">
+                    <a target="_blank" href="http://game.bilibili.com/fgo/bugrecovery/"> <img src="./img/fgo_index/ce46a5cbb052ffe1486f2bb1cbfb265bd2f52b94.jpg"> </a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="slides-pagination">
+                <li class="selected"><a href="javascript:;" data-slides="0">1</a></li>
+                <li class=""><a href="javascript:;" data-slides="1">2</a></li>
+              </ul>
+            </div>
+            <div class="line-1"></div>
+            <div class="main-news">
+              <div class="clearfix">
+                <dl>
+                  <dt>
+                    <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1">最新情报</a>
+                  </dt>
+                  <dd>
+                    <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/1509"><strong>《FGO》手游随机抽取类玩法概率公示</strong></a><span>[2017/05/31]</span>
+                  </dd>
+                  <dd>
+                    <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/3385"><strong>「FateGrand Order VR             feat.玛修·基列莱特 参展SONY EXPO纪念活动」上线！</strong></a><span>[2019/04/15]</span>
+                  </dd>
+                  <dd>
+                    <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/3384"><strong>活动维护公告（2019年4月16日
+                        14时）</strong></a><span>[2019/04/15]</span>
+                  </dd>
+                  <dd>
+                    <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/3383"><strong>限时活动「复刻：Saber&nbsp;Wars&nbsp;～Lily的宇宙武者修行～轻量版」举办</strong></a>                 <span>[2019/04/15]</span>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="content">
           <div class="c-title"></div>
           <div class="c-tag"></div>
@@ -185,5 +252,26 @@
       </div>
     </div>
   </section>
+  <script src="./js/jquery-1.11.3.js"></script>
+  <script type="text/javascript">
+    //处理roles-row 部分的动画
+    //当鼠标移入 div.roles 时，在div.roles增加.active。在当前鼠标停留的div.role-item增加.current
+    (function(){
+      //找到事件触发元素
+      let $rol=$("#mainly .content .roles");
+      //console.log($rol);
+      //绑定时间触发函数
+      $rol.on("mouseenter","div.role-item",function(){
+        let $tar=$(this);
+        $tar.parent().addClass("active");
+        $tar.addClass("current");
+      })
+      $rol.on("mouseleave","div.role-item",function(){
+        let $tar=$(this);
+        $tar.parent().removeClass("active");
+        $tar.removeClass("current");
+      })
+    })()
+  </script>
 </body>
 </html>

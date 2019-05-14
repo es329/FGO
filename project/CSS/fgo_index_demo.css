@@ -3,10 +3,42 @@ body{
     color: #161616;
     background-color: #fff;
 }
-body, html {
+body, html{
     min-width: 1280px;
     max-width: 1920px;
     margin: 0 auto;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #161616;
+}
+a:hover{
+    text-decoration: underline;
+    color: #c01203
+}
+.grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix, .grid{
+    zoom: 1;
+}
+.clearfix:before, .grid:before{
+    height: 1px;
+    margin-bottom: -1px;
+    display: block;
+    visibility: hidden;
+    content: "";
+}
+.clearfix:after, .grid:after{
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    content: "";
 }
 .nav{
     position: relative;
@@ -20,11 +52,11 @@ body, html {
     position: absolute;
     transition: opacity .2s
 }
-.nav .nav-item:hover {
+.nav .nav-item:hover{
     opacity: .6;
     text-decoration: none
 }
-.nav .nav-item img {
+.nav .nav-item img{
     position: absolute;
     display: block;
     top: 0;
@@ -32,57 +64,161 @@ body, html {
     width: 100%;
     height: auto;
 }
-.nav .nav-item.home {
+.nav .nav-item.home{
     top: 14.49275%;
     left: 19.53125%;
     width: 5.36458%;
     padding-top: 2.44792%
 }
-.nav .nav-item.news {
+.nav .nav-item.news{
     top: 28.98551%;
     left: 26.97917%;
     width: 4.73958%;
     padding-top: 1.71875%
 }
-.nav .nav-item.world {
+.nav .nav-item.world{
     top: 28.98551%;
     left: 33.38542%;
     width: 5.52083%;
     padding-top: 1.71875%
 }
-.nav .nav-item.servant {
+.nav .nav-item.servant{
     top: 28.98551%;
     left: 40.46875%;
     width: 4.6875%;
     padding-top: 1.71875%
 }
-.nav .nav-item.htp {
+.nav .nav-item.htp{
     top: 28.98551%;
     left: 46.71875%;
     width: 4.89583%;
     padding-top: 1.82292%
 }
-.nav .nav-item.gallery {
+.nav .nav-item.gallery{
     top: 28.98551%;
     left: 53.125%;
     width: 5.52083%;
     padding-top: 1.82292%
 }
-.nav .nav-item.staff {
+.nav .nav-item.staff{
     top: 28.98551%;
     left: 60.20833%;
     width: 4.6875%;
     padding-top: 1.71875%
 }
-.nav .nav-item.sns {
+.nav .nav-item.sns{
     top: 28.98551%;
     left: 66.25%;
     width: 4.6875%;
     padding-top: 1.71875%
 }
-.nav .nav-item.sns:hover {
+.nav .nav-item.sns:hover{
     opacity: 1
 }
+.nav .sns-wrap{
+    position: absolute;
+    top: 28.98551%;
+    left: 72.29167%;
+    width: 8.75%;
+    padding-top: 1.66667%;
+}
+.nav .sns-icon{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 19.04762%;
+    height: 100%;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    cursor: pointer;
+}
+.nav .sns-icon .icon-bg{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+    background-size: 100% auto;
+    opacity: 1;
+}
+.nav .sns-icon .icon-bg:hover{
+    opacity: .7;
+}
+.nav .sns-icon .sns-detail{
+    display: none;
+    animation: fadeIn .2s forwards;
+}
+.nav .sns-icon:hover .sns-detail{
+    display: block;
+}
+.nav .sns-detail h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: initial;
+    margin-bottom: 8px;
+    line-height: 20px;
+}
+.nav .sns-detail p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.nav .sns-icon.qq .icon-bg{
+    background-image: url(../img/fgo_index/icon-qq.png);
+}
+.nav .sns-icon.weixin .icon-bg{
+    background-image: url(../img/fgo_index/icon-we.png);
+}
+.nav .sns-icon.weixin{
+    left: 23.21429%;
+}
+.nav .weixin .sns-detail{
+    position: absolute;
+    right: -44px;
+    top: 100%;
+    z-index: 2;
+    padding-top: 20px;
+    width: 194px;
+    height: 98px;
+    background-size: contain;
+    background: url(../img/fgo_index/we-bg.png) no-repeat center bottom;
+    text-align: left;
+    box-sizing: border-box;
+}
+.nav .weixin .sns-detail h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.nav .weixin .sns-detail img{
+    float: left;
+    margin-right: 6px;
+    margin-left: 10px;
+}
+.nav .sns-icon.weibo{
+    left: 46.42857%;
+    background-image: url(../img/fgo_index/icon-weibo.png);
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+}
+.nav .weixin .sns-detail p{
+    line-height: 18px;
+}
+.nav .sns-icon.bili{
+    left: 69.64286%;
+    background-image: url(../img/fgo_index/icon-bili.png);
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+}
+.nav a.sns-icon:hover{
+    opacity: .7;
+}
+
+
 
 #page{
     width: 100%;
@@ -90,7 +226,144 @@ body, html {
     margin-right: auto;
     overflow: hidden;
 }
-#page .content{
+.head{
+    position: relative;
+    padding-top: 54.6875%;
+    overflow: hidden;
+}
+.swiper-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.swiper-header .header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header.header-1{
+    height: 100%;
+    background: url(../img/fgo_index/banner-1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.header.header-2{
+    height: 100%;
+    background: url(../img/fgo_index/banner-2.jpg) no-repeat;
+    background-size: 100% 100%;
+}.header.header-3{
+    height: 100%;
+    background: url(../img/fgo_index/banner-3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.main-top{
+    height: 290px;
+    text-align: center;
+    background: url(../img/fgo_index/min-news.jpg) center top no-repeat;
+}
+.slideshow{
+    width: 455px;
+    height: 230px;
+    margin-top: 29px;
+    border: 1px solid #fff;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.slideshow>div{
+    position: relative;
+    overflow: hidden;
+}
+.slideshow .slideshow-carousel{
+    min-width: 910px;
+}
+.slideshow .slideshow-slide{
+    float: left;
+}
+.slideshow .slides-pagination{
+    padding: 5px;
+    border-radius: 13px;
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0,0,0,.75);
+}
+.slideshow .slides-pagination li{
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+    display: inline-block;
+}
+.slideshow .slides-pagination li a{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: block;
+    line-height: 14px;
+    text-indent: -9999em;
+    background: #fff;
+}
+.slideshow .slides-pagination li.selected a{
+    background: #1566db;
+}
+.main-top .line-1{
+    width: 2px;
+    height: 242px;
+    margin: 23px 25px 0;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../img/fgo_index/line-1.png) no-repeat;
+}
+.main-top .main-news{
+    width: 430px;
+    margin-top: 27px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    color: #fff;
+}
+.main-news dl{
+    margin-bottom: 5px;
+}
+.main-news dl dt{
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    display: block;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+}
+.main-news dl a{
+    color: #fff;
+}
+.min-news dl a:hover{
+    color: #fff
+  }
+.main-news dl dd{
+    margin: 3px 0;
+    display: block;
+    font-size: 14px;
+}
+.main-news dl dd strong{
+    display: block;
+    font-weight: 400;
+    width: 28em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.main-news dl dd span{
+    display: block;
+    text-align: right;
+    color: #fff;
+}
+
+#mainly .content{
     width: 100%;
     padding-top: 119.79167%;
     position: relative;
@@ -133,7 +406,8 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-
+    -webkit-animation: fade .3s forwards;
+    animation: fade .3s forwards
 }
 .roles-wrap .role-item{
     float: left;
@@ -142,13 +416,48 @@ body, html {
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
+.roles-wrap .role-item.current{
+    background: url(../img/fgo_index/bg_emblem.png) no-repeat center center;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%
+}
+.roles-wrap .role-item:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,36,99,0.7);
+}
+.roles-wrap .role-item.current:after{
+    display: none
+}
+
 .roles-wrap .role-item .off{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+.roles-wrap .role-item .off .img{
+    position: absolute;
+    width: 1220px;
+    height: 100%;
+    left: 50%;
+    margin-left: -610px;
+    background-size: auto 100%;
+    background-position: center;
+    -webkit-transition: all .7s ease;
+    -o-transition: all .7s ease;
+    transition: all .7s ease;
+}
+.roles-wrap .role-item.current .off .img{
+    margin-left: 180%
 }
 .roles-wrap .role-item .on{
     position: absolute;
@@ -158,6 +467,76 @@ body, html {
     height: 100%;
     opacity: 0;
 }
+.roles-wrap .role-item .on .img{
+    position: absolute;
+    margin-left: 100%;
+    left: 50%;
+    width: 624.27746%;
+    height: 100%;
+    transform: scale(1.2);
+    transition: all .8s ease .2s;
+    background-size: auto 100%;
+}
+.roles-wrap .role-item.current .on{
+    opacity: 1
+}
+.roles-wrap .role-item.current .on .img{
+    width: 156.06936%;
+    margin-left: -77.92208%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+.roles-wrap .role-item.saber .off .img{
+    background-image: url(../img/fgo_index/img_saber.png);
+}
+.roles-wrap .role-item.archer .off .img{
+    background-image: url(../img/fgo_index/img_archer.png);
+}
+.roles-wrap .role-item.lancer .off .img{
+    background-image: url(../img/fgo_index/img_lancer.png);
+}
+.roles-wrap .role-item.rider .off .img{
+    background-image: url(../img/fgo_index/img_rider.png);
+}
+.roles-wrap .role-item.caster .off .img{
+    background-image: url(../img/fgo_index/img_caster.png);
+}
+.roles-wrap .role-item.assassin .off .img{
+    background-image: url(../img/fgo_index/img_assassin.png);
+}
+.roles-wrap .role-item.berserker .off .img{
+    background-image: url(../img/fgo_index/img_berserker.png);
+}
+.roles-wrap .role-item.extra .off .img{
+    background-image: url(../img/fgo_index/img_extra.png);
+}
+
+.roles-wrap .role-item.saber .on .img{
+    background-image: url(../img/fgo_index/img_saber_on.png);
+}
+.roles-wrap .role-item.archer .on .img{
+    background-image: url(../img/fgo_index/img_archer_on.png);
+}
+.roles-wrap .role-item.lancer .on .img{
+    background-image: url(../img/fgo_index/img_lancer_on.png);
+}
+.roles-wrap .role-item.rider .on .img{
+    background-image: url(../img/fgo_index/img_rider_on.png);
+}
+.roles-wrap .role-item.caster .on .img{
+    background-image: url(../img/fgo_index/img_caster_on.png);
+}
+.roles-wrap .role-item.assassin .on .img{
+    background-image: url(../img/fgo_index/img_assassin_on.png);
+}
+.roles-wrap .role-item.berserker .on .img{
+    background-image: url(../img/fgo_index/img_berserker_on.png);
+}
+.roles-wrap .role-item.extra .on .img{
+    background-image: url(../img/fgo_index/img_extra_on.png);
+}
+
 .roles-wrap .role-item .off .cl{
     position: absolute;
     top: 50%;
@@ -165,25 +544,27 @@ body, html {
     margin: -71px 0 0 -18px;
     z-index: 5;
 }
-.roles-wrap .role-item .on .cl {
+.roles-wrap .role-item.current .off .cl{
+    opacity: 0
+}
+.roles-wrap .role-item .on .cl{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 5;
 }
-.roles-wrap .role-item:after {
-    content: '';
-    display: block;
+.roles-wrap .role-item.current .on .cl{
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,36,99,0);
+    top: 0;
+    left: 0;
+    z-index: 5
 }
-.roles-wrap .roles.active .role-item {
+
+.roles-wrap .roles.active .role-item{
     width: 9.01042%
-  }
-.roles-wrap .roles.active .role-item.current {
-    width: 36.04167%
+}
+.roles-wrap .roles.active .role-item.current{
+    width: 36.84167%
 }
 .content .c-staff{
     position: absolute;
@@ -240,4 +621,24 @@ body, html {
     top: 83.04196%;
     width: 21.875%;
     padding-top: 6.35417%;
+}
+
+@-webkit-keyframes fade {
+    0% {
+      opacity: 0
+    }
+
+    100% {
+      opacity: 1
+    }
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0
+    }
+
+    100% {
+      opacity: 1
+    }
 }
