@@ -220,6 +220,7 @@ a:hover{
 
 
 
+
 #page{
     width: 100%;
     margin-left: auto;
@@ -259,6 +260,267 @@ a:hover{
     background: url(../img/fgo_index/banner-3.jpg) no-repeat;
     background-size: 100% 100%;
 }
+
+
+.header-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    width: 19.27083%;
+    min-width: 247px;
+    height: 100%;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    -o-transition: transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+}
+.header-left.collapse{
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+.header-left .left-wrap{
+    background:url(../img/fgo_index/header-left.png) no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+.branch-eor, .story-line, .branch-cos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.left-wrap .logo,.left-wrap .logo{
+	position: relative;
+    display: block;
+}
+.story-line .logo{
+    margin: 4.05405% auto 0;
+	width: 75.13514%;
+    padding-top: 33.51351%;
+    background: url(../img/fgo_index/logo.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.branch-eor .logo{
+    margin: 5.13514% auto 0;
+    width: 76.21622%;
+    padding-top: 32.43243%;
+    background: url(../img/fgo_index/eor-logo.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.branch-cos .logo {
+    margin: 3.78378% auto 0;
+    width: 70.27027%;
+    padding-top: 33.78378%;
+    background: url(../img/fgo_index/logo-cos.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%
+}
+.left-wrap .title-1{
+	display: block;
+	width: 77.83784%;
+	padding-top: 6.75676%;
+	margin: 5.13514% auto;
+	background: url(../img/fgo_index/left-tit.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+.left-wrap .swflv{
+	width: 87.83784%;
+	padding-top: 50%;
+	margin: 1.35135% auto;
+	display: block;
+    cursor: pointer;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s
+}
+.left-wrap .swflv:hover{
+    opacity: .8;
+}
+.story-line .swflv{
+    background: url(../img/fgo_index/swflv.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.branch-eor .swflv{
+    background: url(../img/fgo_index/eor-pv.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.branch-cos .swflv{
+    background: url(../img/fgo_index/uni-pv.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.swflv-p{
+	font-size: 15px;
+	line-height: 2;
+	text-align: center;
+}
+.header-left .placeholder-line{
+    padding-top: 115.13514%;
+    visibility: hidden;
+}
+.header-left .line{
+    width: 71.35135%;
+    padding-top: 2.7027%;
+    margin: 1.35135% auto;
+    display: block;
+    background: url(../img/fgo_index/header-left-line.png) no-repeat;
+    background-size: 100% 100%;
+}
+.header-left .btns{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 0;
+}
+.header-left .btns a{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    cursor: pointer;
+    font-size: 0;
+    width: 71.89189%;
+    padding-top: 17.2973%;
+    margin: 0 auto 3.24324%;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+}
+.header-left .btns a:hover{
+    opacity: .8;
+}
+.btns .btn-dl-ios{
+    background-image: url(../img/fgo_index/btn-dl-ios-2.png);
+}
+.btns .btn-dl-android{
+    background-image: url(../img/fgo_index/btn-dl-android-2.png);
+}
+.btns .qr-box{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 101.8797%;
+    width: 54.88722%;
+    padding-top: 50.75188%;
+    background: url(../img/fgo_index/qr-box.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-animation: fade .3s forwards;
+    animation: fade .3s forwards;
+}
+.header-left .btns a:hover .qr-box{
+    display: block;
+    opacity: 1;
+}
+.btns .qr-box .qrcode {
+    position: absolute;
+    top: 6.66667%;
+    left: 13.0137%;
+    width: 80.82192%;
+    height: 87.40741%;
+}
+.qr-box .qrcode img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.attention{
+    margin: 2.7027% auto 0;
+    position: relative;
+    padding-left: 13.78378%;
+    padding-right: 5.40541%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+.attention p{
+    margin-top: 3.125%;
+    margin-right: -4.6875%;
+    font-size: 14px;
+    color: #152631;
+    line-height: 1.6
+}
+.attention p span{
+    margin-right: 4.6875%;
+    line-height: 1.75
+}
+.header-left .link-btn{
+    display: block;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    padding-top: 10.54054%;
+}
+.header-left .link-btn.link1{
+    margin-top: 5.40541%;
+    background: url(../img/fgo_index/link1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+/* 通过position，使hover时新的图片叠加在原先的图片之上 */
+.header-left .link-btn.link1::after {
+    display: none;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fgo_index/link1-on.jpg) no-repeat;
+    background-size: 100% 100%
+}
+.header-left .link-btn.link2 {
+    margin-top: .54054%;
+    background: url(../img/fgo_index/link2.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%
+  }
+.header-left .link-btn.link2::after {
+    display: none;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fgo_index/link2-on.jpg) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%
+}
+.header-left .link-btn:hover::after {
+    display: block
+}
+.header-left .holder{
+    height: 100%;
+    background-color: rgba(255,255,255,.8);
+}
+.header-left .closed{
+    position: absolute;
+    width: 10%;
+    padding-top: 17.02703%;
+    margin-top: 103.51351%;
+    top:0;
+    right: -4.86486%;
+    cursor: pointer;
+    background: url(../img/fgo_index/closed.png) no-repeat;
+    background-size: 200% 100%;
+    z-index: 9;
+}
+.header-left .active{
+    background-position: 100% 0
+}
+
+
+
+
+
 .main-top{
     height: 290px;
     text-align: center;
@@ -632,7 +894,6 @@ a:hover{
       opacity: 1
     }
 }
-
 @keyframes fade {
     0% {
       opacity: 0
@@ -640,5 +901,15 @@ a:hover{
 
     100% {
       opacity: 1
+    }
+}
+@media (max-width:1400px) {
+    .attention p {
+      font-size: 12px
+    }
+}
+@media (max-width:1440px) {
+    .qrcode-box p {
+      font-size: 14px
     }
 }

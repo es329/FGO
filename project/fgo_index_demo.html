@@ -58,12 +58,56 @@
     <div id="page">
       <div class="head">
         <span class="swiper-header">
-          <div class="header header-1"></div>
-          <div class="header header-2" display="none"></div>
-          <div class="header header-3" display="none"></div>
+          <div class="header header-1" ></div>
+          <div class="header header-2" style="display:none"></div>
+          <div class="header header-3" style="display:none"></div>
         </span>
-        <div class="header-left collapse">
-
+        <div class="header-left clearfix">
+          <div class="left-wrap">
+            <span>
+              <div id="banner2" class="story-line">
+              <!-- <div id="banner3" class="branch-eor"> -->
+              <!-- <div id="banner1" class="branch-cos"> -->
+                <a href="./fgo_index_demo.html" class="logo"></a>
+                <strong class="title-1"></strong>
+                <a class="-BiliVideo swflv"></a>
+                <p class="swflv-p">「Fate/Grand Order」PV</p>
+                <!-- <p class="swflv-p">「断章：残存诗篇」PV</p> -->
+                <!-- <p class="swflv-p">「异闻带宇宙」PV</p> -->
+              </div>
+            </span>
+            <div class="placeholder-line"></div>
+            <div class="line"></div>
+            <div class="btns">
+              <a href="https://itunes.apple.com/cn/app/ming-yun-guan-wei-zhi-ding/id1108397779?mt=8" target="_blank"  title="ios下载" class="btn-dl-ios device-ios">
+                <div class="qr-box">
+                  <div class="qrcode">
+                    <img src="./img/fgo_index/fgo-dl-qr.png" alt="下载FGO">
+                  </div>
+                </div>
+              </a>
+              <a href="https://pkg.biligame.com/games/FGO_v1.45.3_bili_726198.apk" target="_blank" title="安卓下载" class="btn-dl-android device-android">
+                <div class="qr-box">
+                  <div class="qrcode">
+                    <img src="./img/fgo_index/fgo-dl-qr.png" alt="下载FGO">
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="attention">
+              <p>
+                <span>
+                  客服QQ：800059038<br>
+                  客服电话：4001782233（9:00-21:00）<br>
+                  客服邮箱：gamehelp@bilibili.com
+                </span>
+              </p>
+            </div>
+            <a href="https://game.bilibili.com/fgo/exchange/" target="_blank" class="link-btn link1"></a>
+            <a href="http://www.biligame.com/detail/?id=49" target="_blank" class="link-btn link2"></a>
+          </div>
+          <div class="holder"></div>
+          <div class="closed"></div>
         </div>
       </div>
       <div id="mainly">
@@ -103,7 +147,7 @@
                         14时）</strong></a><span>[2019/04/15]</span>
                   </dd>
                   <dd>
-                    <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/3383"><strong>限时活动「复刻：Saber&nbsp;Wars&nbsp;～Lily的宇宙武者修行～轻量版」举办</strong></a>                 <span>[2019/04/15]</span>
+                    <a target="_blank" href="https://game.bilibili.com/fgo/news.html#!news/0/1/3383"><strong>限时活动「复刻：Saber&nbsp;Wars&nbsp;～Lily的宇宙武者修行～轻量版」举办</strong></a> <span>[2019/04/15]</span>
                   </dd>
                 </dl>
               </div>
@@ -271,6 +315,14 @@
         let $tar=$(this);
         $tar.parent().removeClass("active");
         $tar.removeClass("current");
+      })
+    })()
+  </script>
+  <script>
+    (function(){
+      $("#page .closed").click(function(){
+        $(this).toggleClass("active");
+        $("#page .header-left").toggleClass("collapse");
       })
     })()
   </script>
