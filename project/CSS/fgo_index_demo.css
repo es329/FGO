@@ -420,7 +420,7 @@ a:hover{
     display: block;
     opacity: 1;
 }
-.btns .qr-box .qrcode {
+.btns .qr-box .qrcode{
     position: absolute;
     top: 6.66667%;
     left: 13.0137%;
