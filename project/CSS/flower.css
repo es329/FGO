@@ -1,0 +1,16 @@
+.flower{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 20.98958%;
+  margin-top: 11.82292%;
+  padding-top: 25.3125%;
+  background: url(//static.biligame.com/fgo/gw/pc/img/bot-flower.png?d00582a2) no-repeat;
+  background-size: 100% auto;
+}
+.flower.left{
+  left: -9.27083%;
+}
+.flower.right{
+  right: -9.375%;
+}

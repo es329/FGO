@@ -1,5 +1,12 @@
 body{
-  font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+  font: 12px/1.5 'Microsoft Yahei';
+  color: #161616;
+  background-color: #fff;
+}
+body, html{
+  min-width: 1280px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 a, b, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, img, input, label, li, ol, option, p, select, span, strong, table, td, textarea, tr, ul {
   padding: 0;

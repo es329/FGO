@@ -1,0 +1,48 @@
+.main-container{
+  border-bottom: 1px solid #d5cc9b;
+  background:url(../img/staff/bg.png) ;
+  -webkit-background-size: 1.04167% auto;
+  background-size: 1.04167% auto;
+  overflow: hidden;
+  position: relative;
+}
+.title{
+  position: relative;
+  padding-top: 9.79167%;
+  background: url(../img/staff/common-top-bg.jpg) no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.title .page-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.title .page-title.gallery{
+  background-image: url(../img/staff/gallery-title.png);
+}
+.title-slice{
+  border-top: 1px solid #ede6ba;
+  border-bottom: 1px solid #7b828a;
+}
+.staff-wrap{
+  padding: 3.33333% 0 4.58333%;
+}
+.staff-wrap .staff1{
+  margin-left: 24.73958%;
+  margin-bottom: 3.4375%;
+  width: 57.03125%;
+  padding-top: 85.20833%;
+  background: url(../img/staff/staff1.png) no-repeat;
+  background-size: 100% auto;
+}
+.staff-wrap .staff2{
+  margin-left: 24.73958%;
+  width: 50.67708%;
+  padding-top: 28.28125%;
+  background: url(../img/staff/staff2.png) no-repeat;
+  background-size: 100% auto;
+}
