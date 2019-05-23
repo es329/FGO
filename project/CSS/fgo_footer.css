@@ -4,6 +4,7 @@
 }
 #footer .back-top{
   position: absolute;
+  z-index: 10;
   bottom: 190px;
   right: 8.22917%;
   width: 5.98958%;
