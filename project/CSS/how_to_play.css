@@ -1,3 +1,12 @@
+.main-container {
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #d5cc9b;
+  background: url(../img/how_to_play/bg.png);
+  -webkit-background-size: 1.04167% auto;
+  background-size: 1.04167% auto;
+  overflow: hidden;
+}
 .title-lay{
   position: relative;
   padding-top: 9.79167%;
