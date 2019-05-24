@@ -2,6 +2,9 @@
   position: relative;
   background-color: #030e2c;
 }
+#footer .disabled{
+  display: none !important;
+}
 #footer .back-top{
   position: absolute;
   z-index: 10;

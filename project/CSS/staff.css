@@ -6,14 +6,14 @@
   overflow: hidden;
   position: relative;
 }
-.title{
+.title-lay{
   position: relative;
   padding-top: 9.79167%;
   background: url(../img/staff/common-top-bg.jpg) no-repeat;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
 }
-.title .page-title{
+.title-lay .page-title{
   position: absolute;
   top: 0;
   left: 0;
@@ -21,7 +21,7 @@
   height: 100%;
   background-size: 100% 100%;
 }
-.title .page-title.gallery{
+.title-lay .page-title.gallery{
   background-image: url(../img/staff/gallery-title.png);
 }
 .title-slice{

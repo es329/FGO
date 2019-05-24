@@ -1,0 +1,123 @@
+.title-lay{
+  position: relative;
+  padding-top: 9.79167%;
+  background: url(../img/how_to_play/common-top-bg.jpg) no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.title-lay .page-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.title-lay .page-title.htp{
+  background-image: url(../img/how_to_play/how_to_play-title.png);
+}
+
+.how-to-play-box{
+  min-height: 600px;
+  width: 1052px;
+  margin: 88px auto 50px;
+}
+.layout-box:after{
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+}
+.layout-box .layout-left{
+  float: left;
+  width: 330px;
+}
+.layout-box .layout-left ul li{
+  cursor: pointer;
+  display: block;
+  width: 241px;
+  height: 66px;
+  margin-bottom: 33px;
+  text-align: center;
+  line-height: 1;
+  position: relative;
+  user-select: none;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-image: url(../img/how_to_play/bg-btns.png);
+}
+.layout-box .layout-left ul li img{
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+.layout-box .layout-left ul li.cur{
+  background-position: 0 0;
+  cursor: default;
+}
+.layout-box .layout-left ul li.cur:after{
+  content: "";
+  position: absolute;
+  left: 250px;
+  top: 20px;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 18px solid #0c1e3f;
+  border-right: 0;
+}
+
+.layout-box .layout-right {
+  display: block;
+  overflow: hidden;
+}
+.layout-box .layout-right ul li{
+  display: none;
+}
+.layout-box .layout-right ul li.cur{
+  display: block;
+}
+.layout-box .layout-right ul li .title{
+  margin-bottom: 30px;
+  padding:0 0 10px;
+  width: 562px;
+  position: relative;
+}
+.layout-box .layout-right ul li .title:after, .layout-box .layout-right ul li .title:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: #000;
+}
+.layout-box .layout-right ul li .title:before{
+  width: 230px;
+  height: 6px;
+}
+.layout-box .layout-right ul li .title img{
+  display: block;
+  margin: 0;
+  max-width: 100%;
+}
+.layout-box .layout-right ul li p{
+  font-size: 18px;
+  line-height: 24px;
+  margin: 20px 0;
+  color: #0a132c;
+  user-select: none;
+}
+.layout-box .layout-right ul li img.c-pic {
+  display: block;
+  margin: 20px 0;
+  max-width: 100%;
+  width: 540px;
+}
