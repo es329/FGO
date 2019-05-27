@@ -9,27 +9,7 @@ a:hover{
     text-decoration: underline;
     color: #c01203
 }
-.grid{
-    width: 1200px;
-    margin: 0 auto;
-}
-.clearfix, .grid{
-    zoom: 1;
-}
-.clearfix:before, .grid:before{
-    height: 1px;
-    margin-bottom: -1px;
-    display: block;
-    visibility: hidden;
-    content: "";
-}
-.clearfix:after, .grid:after{
-    height: 0;
-    display: block;
-    visibility: hidden;
-    clear: both;
-    content: "";
-}
+
 
 
 #page{

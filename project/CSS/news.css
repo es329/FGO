@@ -1,0 +1,108 @@
+a{
+    text-decoration: none;
+    color: #161616;
+}
+.grid{
+    width: 1160px;
+    margin: 0 auto;
+}
+.page{
+    max-width: 1920px;
+    min-width: 1000px;
+    min-height: 965px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    background: url(../img/news/bg-news.jpg) center top no-repeat;
+    
+}
+.page .logo{
+    display: block;
+    width: 260px;
+    height: 116px;
+    margin-top: 15px;
+    background: url(../img/news/logo.png) no-repeat;
+    background-size: contain;
+}
+.page .logo-title{
+    display: block;
+    width: 240px;
+    height: 20px;
+    margin: 5px 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/news/logo-title.png);
+}
+
+.mainly{
+    margin-top: 140px;
+}
+.mainly .left{
+    width: 274px;
+    height: 494px;
+    margin-right: 11px;
+    padding: 10px 0;
+    float: left;
+    box-sizing: border-box;
+    background: url(../img/news/bg-news-aside.jpg) repeat;
+}
+
+.mainly .left .td-btn{
+    display: block;
+    width: 199px;
+    height: 62px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.mainly .left .td-btn.btn-dl-ios{
+    background: url(../img/news/btn-news-dl-ios.png) no-repeat;
+}
+.mainly .left .td-btn.btn-dl-android{
+    background: url(../img/news/btn-news-dl-android.png) no-repeat;
+}
+.mainly .left .qrcode-box{
+    padding: 10px 0;
+}
+.mainly .left .qrcode-box .qrcode{
+    width: 198px;
+    height: 198px;
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.mainly .left .qrcode-box .qrcode img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.mainly .left .qrcode-box p{
+    text-align: center;
+    color: #caae53;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.mainly .right{
+    min-height: 600px;
+    padding-bottom: 20px;
+    background: url(../img/news/right-bg.png) repeat;
+    overflow: hidden;
+}
+.news-core .news-core-title{
+    height: 78px;
+    padding-left: 230px;
+    background: url(../img/news/title-news-content-top.png) 40px center no-repeat,url(../img/news/bg-news-content-top.jpg) no-repeat;
+    background-size: auto auto,100% 100%;
+}
+.news-core .news-core-title .news-core-path{
+    padding-top: 38px;
+    font-size: 14px;
+    color: #caae49;
+}
+.news-core .news-core-title .news-core-path a{
+    color: #caae49;
+}
