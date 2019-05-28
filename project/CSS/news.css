@@ -106,3 +106,75 @@ a{
 .news-core .news-core-title .news-core-path a{
     color: #caae49;
 }
+.news-core .news-core-list-title ul{
+    padding: 20px 0;
+    text-align: center;
+}
+.news-core-list-title ul li{
+    width: 73px;
+    margin: 0 50px;
+    display: inline-block;
+}
+.news-core-list-title ul li.active{
+    background: url(../img/news/core-titile-bg.png) center center no-repeat;
+}
+.news-core-list-title ul li a{
+    display: block;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #061548;
+    letter-spacing: 2px;
+}
+.news-core-list-title ul li.active a{
+    color: #caae53;
+}
+.news-core-list .news-core-list-text{
+    min-height: 350px;
+    margin-bottom: 40px;
+}
+.news-core-list-text ul{
+    padding: 0 45px;
+}
+.news-core-list-text ul li{
+    font-size: 14px;
+    line-height: 44px;
+    padding-top: 23px;
+    color: #061548;
+    border-bottom: 1px dotted #000;
+}
+.news-core-list-text ul li strong{
+    float: left;
+    margin-right: 15px;
+    display: inline-block;
+}
+.news-core-list-text ul li a{
+    float: left;
+    width: 24em;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #061548;
+}
+.news-core-list-text ul li span{
+    display: inline-block;
+    float: right;
+}
+.news-core-list .news-core-paging{
+    padding: 38px 45px;
+    text-align: right;
+}
+.news-core-paging a{
+    margin: 0 5px;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+}
+.news-core-paging a.active{
+    font-weight: 700;
+    color: #c01203;
+}
