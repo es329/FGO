@@ -1,0 +1,144 @@
+.main-container{
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #d5cc9b;
+  background: url(../img/servant/bg.png);
+  -webkit-background-size: 1.04167% auto;
+  background-size: 1.04167% auto;
+  overflow: hidden;
+}
+.title-lay{
+  position: relative;
+  padding-top: 9.79167%;
+  background: url(../img/staff/common-top-bg.jpg) no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.title-lay .page-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.title-lay .page-title.servant{
+  background-image: url(../img/servant/servant-title.png);
+}
+.title-lay .title-slice{
+  border-top: 1px solid #ede6ba;
+  border-bottom: 1px solid #7b828a;
+}
+.roles-container{
+  position: relative;
+  padding-top: 57.60417%;
+}
+.roles-container .roles-tags{
+  position: absolute;
+  z-index: 4;
+  top: 3.72439%;
+  left: 21.875%;
+  width: 55.9375%;
+  padding-top: 2.1875%;
+}
+.roles-tags .role-tag{
+  position: absolute;
+  top: 0;
+  margin-right: .46555%;
+  width: 12.10428%;
+  height: 100%;
+  background-image: url(../img/servant/jobs.png);
+  background-size: auto 200%;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+.roles-tags .role-tag.on{
+  background-position-y: 100%;
+}
+.roles-tags .role-tag.saber{
+  left: 0;
+  background-position-x: 0;
+}
+.roles-tags .role-tag.archer{
+  left: 12.56983%;
+  background-position-x: 14%;
+}
+.roles-tags .role-tag.lancer{
+  left: 25.13966%;
+  background-position-x: 28.5%;
+}
+.roles-tags .role-tag.rider{
+  left: 37.7095%;
+  background-position-x: 42.5%;
+}
+.roles-tags .role-tag.caster{
+  left: 50.27933%;
+  background-position-x: 57%;
+}
+.roles-tags .role-tag.assassin{
+  left: 62.84916%;
+  background-position-x: 71.5%;
+}
+.roles-tags .role-tag.berserker{
+  left: 75.41899%;
+  background-position-x: 85.5%;
+}
+.roles-tags .role-tag.extra{
+  left: 87.98883%;
+  background-position-x: 100%;
+}
+.swiper-common-wrap{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  
+}
+.swiper-common-wrap .swiper-container{
+  position: relative;
+  display: block;
+  opacity: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  direction: ltr;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.swiper-common-wrap .swiper-container.on{
+  opacity: 1;
+}
+.swiper-common-wrap .swiper-common{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-y: 55%;
+}
+.swiper-common-wrap .saber-swiper.on {
+  background-image: url(../img/servant/saber-bg.png);
+}
+.swiper-container .swiper-wrapper{
+  width: 6400px;
+  height: 737.328px;
+  /* transform: translate3d(-1280px, 0px, 0px); */
+  transition-duration: 0.3s;
+  box-sizing: content-box;
+  transition-property: transform,left,top;
+}
+.swiper-common-wrap .swiper-slide{
+  float: left;
+  box-sizing: content-box;
+  width: 1280px;
+  height: 737.328px;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.swiper-common-wrap .saber-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/saber-1.png);
+}

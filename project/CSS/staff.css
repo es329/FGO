@@ -24,7 +24,7 @@
 .title-lay .page-title.gallery{
   background-image: url(../img/staff/gallery-title.png);
 }
-.title-slice{
+.title-lay .title-slice{
   border-top: 1px solid #ede6ba;
   border-bottom: 1px solid #7b828a;
 }
