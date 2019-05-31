@@ -1,6 +1,6 @@
 $(function(){
   $.ajax({
-    url:"../nav.html",
+    url:"./nav.html",
     type:"get",
     success:function(html){
       $(html).replaceAll(".nav");

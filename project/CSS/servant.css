@@ -142,3 +142,11 @@
 .swiper-common-wrap .saber-swiper .swiper-slide.s1{
   background-image: url(../img/servant/saber-1.png);
 }
+.roles-s-tags{
+  position: absolute;
+  z-index: 3;
+  top: 16.99819%;
+  left: 21.875%;
+  width: 15.625%;
+  padding-top: 5.20833%;
+}
