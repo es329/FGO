@@ -332,6 +332,7 @@ a:hover{
 }
 .slideshow .slideshow-carousel{
     min-width: 910px;
+    transition: all .5s;
 }
 .slideshow .slideshow-slide{
     float: left;
@@ -676,22 +677,29 @@ a:hover{
     padding-top: 6.35417%;
 }
 
-@-webkit-keyframes fade {
-    0% {
-      opacity: 0
+.banner-enter-active{
+    animation-name:fadeIn;
+	animation-duration:.5s;
+}
+.banner-leave-active{
+    animation-name:fadeIn;
+	animation-duration:.5s;
+    animation-direction: reverse;
+}
+@-webkit-keyframes fadeIn{
+    0%{
+        opacity:0
     }
-
-    100% {
-      opacity: 1
+    100%{
+        opacity:1
     }
 }
-@keyframes fade {
-    0% {
-      opacity: 0
+@keyframes fadeIn{
+    0%{
+        opacity:0    
     }
-
-    100% {
-      opacity: 1
+    100%{
+         opacity:1
     }
 }
 @media (max-width:1400px) {
