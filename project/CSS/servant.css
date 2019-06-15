@@ -132,8 +132,7 @@
 .swiper-container .swiper-wrapper{
   width: 6400px;
   height: 737.328px;
-  /* transform: translate3d(-1280px, 0px, 0px); */
-  transition-duration: 0.3s;
+  /* transition-duration: 0.3s; */
   box-sizing: content-box;
   transition-property: transform,left,top;
 }
@@ -145,7 +144,6 @@
   height: 737.328px;
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
-  transform: translate3d(-1280px, 0px, 0px);
 }
 /*剑阶图片*/
 .swiper-common-wrap .saber-swiper .swiper-slide.s1{
