@@ -58,6 +58,9 @@
   transition: opacity .2s;
   cursor: pointer;
 }
+.roles-tags .role-tag:hover{
+  opacity: .75;
+}
 .roles-tags .role-tag.on{
   background-position-y: 100%;
 }
@@ -126,9 +129,32 @@
   background-repeat: no-repeat;
   background-position-y: 55%;
 }
+/* 各职介横幅背景 */
 .swiper-common-wrap .saber-swiper.on {
   background-image: url(../img/servant/saber-bg.png);
 }
+.swiper-common-wrap .archer-swiper.on {
+  background-image: url(../img/servant/archer-bg.png);
+}
+.swiper-common-wrap .lancer-swiper.on {
+  background-image: url(../img/servant/lancer-bg.png);
+}
+.swiper-common-wrap .rider-swiper.on {
+  background-image: url(../img/servant/rider-bg.png);
+}
+.swiper-common-wrap .caster-swiper.on {
+  background-image: url(../img/servant/caster-bg.png);
+}
+.swiper-common-wrap .assassin-swiper.on {
+  background-image: url(../img/servant/assassin-bg.png);
+}
+.swiper-common-wrap .berserker-swiper.on {
+  background-image: url(../img/servant/berserker-bg.png);
+}
+.swiper-common-wrap .extra-swiper.on {
+  background-image: url(../img/servant/extra-bg.png);
+}
+
 .swiper-container .swiper-wrapper{
   width: 6400px;
   height: 737.328px;
@@ -145,7 +171,7 @@
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
 }
-/*剑阶图片*/
+/*各职介图片*/
 .swiper-common-wrap .saber-swiper .swiper-slide.s1{
   background-image: url(../img/servant/saber-1.png);
 }
@@ -155,6 +181,71 @@
 .swiper-common-wrap .saber-swiper .swiper-slide.s3{
   background-image: url(../img/servant/saber-3.png);
 }
+.swiper-common-wrap .archer-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/archer-1.png);
+}
+.swiper-common-wrap .archer-swiper .swiper-slide.s2{
+  background-image: url(../img/servant/archer-1.png);
+}
+.swiper-common-wrap .archer-swiper .swiper-slide.s3{
+  background-image: url(../img/servant/archer-1.png);
+}
+.swiper-common-wrap .lancer-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/lancer-1.png);
+}
+.swiper-common-wrap .lancer-swiper .swiper-slide.s2{
+  background-image: url(../img/servant/lancer-2.png);
+}
+.swiper-common-wrap .lancer-swiper .swiper-slide.s3{
+  background-image: url(../img/servant/lancer-3.png);
+}
+.swiper-common-wrap .rider-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/rider-1.png);
+}
+.swiper-common-wrap .rider-swiper .swiper-slide.s2{
+  background-image: url(../img/servant/rider-2.png);
+}
+.swiper-common-wrap .rider-swiper .swiper-slide.s3{
+  background-image: url(../img/servant/rider-3.png);
+}
+.swiper-common-wrap .caster-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/caster-1.png);
+}
+.swiper-common-wrap .caster-swiper .swiper-slide.s2{
+  background-image: url(../img/servant/caster-2.png);
+}
+.swiper-common-wrap .caster-swiper .swiper-slide.s3{
+  background-image: url(../img/servant/caster-3.png);
+}
+.swiper-common-wrap .assassin-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/assassin-1.png);
+}
+.swiper-common-wrap .assassin-swiper .swiper-slide.s2{
+  background-image: url(../img/servant/assassin-2.png);
+}
+.swiper-common-wrap .assassin-swiper .swiper-slide.s3{
+  background-image: url(../img/servant/assassin-3.png);
+}
+.swiper-common-wrap .berserker-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/berserker-1.png);
+}
+.swiper-common-wrap .berserker-swiper .swiper-slide.s2{
+  background-image: url(../img/servant/berserker-2.png);
+}
+.swiper-common-wrap .berserker-swiper .swiper-slide.s3{
+  background-image: url(../img/servant/berserker-3.png);
+}
+.swiper-common-wrap .extra-swiper .swiper-slide.s1{
+  background-image: url(../img/servant/extra-1.png);
+}
+.swiper-common-wrap .extra-swiper .swiper-slide.s2{
+  background-image: url(../img/servant/extra-2.png);
+}
+.swiper-common-wrap .extra-swiper .swiper-slide.s3{
+  background-image: url(../img/servant/extra-3.png);
+}
+
+
 /*头像共有属性*/
 .roles-s-tags{
   position: absolute;
@@ -231,6 +322,69 @@
 .roles-s-tags.saber .roles-s-box:nth-child(3){
   background-image: url("../img/servant/saber-s-3.png")
 }
+.roles-s-tags.archer .roles-s-box:nth-child(1){
+  background-image: url("../img/servant/archer-s-1.png")
+}
+.roles-s-tags.archer .roles-s-box:nth-child(2){
+  background-image: url("../img/servant/archer-s-2.png")
+}
+.roles-s-tags.archer .roles-s-box:nth-child(3){
+  background-image: url("../img/servant/archer-s-3.png")
+}
+.roles-s-tags.lancer .roles-s-box:nth-child(1){
+  background-image: url("../img/servant/lancer-s-1.png")
+}
+.roles-s-tags.lancer .roles-s-box:nth-child(2){
+  background-image: url("../img/servant/lancer-s-2.png")
+}
+.roles-s-tags.lancer .roles-s-box:nth-child(3){
+  background-image: url("../img/servant/lancer-s-3.png")
+}
+.roles-s-tags.rider .roles-s-box:nth-child(1){
+  background-image: url("../img/servant/rider-s-1.png")
+}
+.roles-s-tags.rider .roles-s-box:nth-child(2){
+  background-image: url("../img/servant/rider-s-2.png")
+}
+.roles-s-tags.rider .roles-s-box:nth-child(3){
+  background-image: url("../img/servant/rider-s-3.png")
+}
+.roles-s-tags.caster .roles-s-box:nth-child(1){
+  background-image: url("../img/servant/caster-s-1.png")
+}
+.roles-s-tags.caster .roles-s-box:nth-child(2){
+  background-image: url("../img/servant/caster-s-2.png")
+}
+.roles-s-tags.caster .roles-s-box:nth-child(3){
+  background-image: url("../img/servant/caster-s-3.png")
+}
+.roles-s-tags.assassin .roles-s-box:nth-child(1){
+  background-image: url("../img/servant/assassin-s-1.png")
+}
+.roles-s-tags.assassin .roles-s-box:nth-child(2){
+  background-image: url("../img/servant/assassin-s-2.png")
+}
+.roles-s-tags.assassin .roles-s-box:nth-child(3){
+  background-image: url("../img/servant/assassin-s-3.png")
+}
+.roles-s-tags.berserker .roles-s-box:nth-child(1){
+  background-image: url("../img/servant/berserker-s-1.png")
+}
+.roles-s-tags.berserker .roles-s-box:nth-child(2){
+  background-image: url("../img/servant/berserker-s-2.png")
+}
+.roles-s-tags.berserker .roles-s-box:nth-child(3){
+  background-image: url("../img/servant/berserker-s-3.png")
+}
+.roles-s-tags.extra .roles-s-box:nth-child(1){
+  background-image: url("../img/servant/extra-s-1.png")
+}
+.roles-s-tags.extra .roles-s-box:nth-child(2){
+  background-image: url("../img/servant/extra-s-2.png")
+}
+.roles-s-tags.extra .roles-s-box:nth-child(3){
+  background-image: url("../img/servant/extra-s-3.png")
+}
 
 /*左右箭头切换按钮*/
 .arr{
@@ -268,6 +422,33 @@
   background-size: 100% auto;
 }
 /*不同职介水印*/
-.job-tit.saber {
+.job-tit.saber{
   background-image: url("../img/servant/saber-tit.png");
+}
+.job-tit.archer{
+  background-image: url("../img/servant/archer-tit.png");
+}
+.job-tit.lancer{
+  background-image: url("../img/servant/lancer-tit.png");
+}
+.job-tit.rider{
+  background-image: url("../img/servant/rider-tit.png");
+}
+.job-tit.caster{
+  background-image: url("../img/servant/caster-tit.png");
+}
+.job-tit.assassin{
+  background-image: url("../img/servant/assassin-tit.png");
+}
+.job-tit.berserker{
+  background-image: url("../img/servant/berserker-tit.png");
+}
+.job-tit.extra{
+  background-image: url("../img/servant/extra-tit.png");
+}
+.job-tit.ruler{
+  background-image: url("../img/servant/ruler-tit.png");
+}
+.job-tit.avenger{
+  background-image: url("../img/servant/avenger-tit.png");
 }
