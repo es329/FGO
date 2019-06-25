@@ -112,7 +112,7 @@ $(document).ready(function(){
   let $serTabbar=$(".roles-tags");
   //为导航条绑定点击函数
   $serTabbar.on("click",".role-tag",function(e){
-    //切换时，重置图像至n
+    //切换时，重置图像至n=-1
     n=-1;
     transformChange(0);
     changHeadImg();
