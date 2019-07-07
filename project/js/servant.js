@@ -26,6 +26,7 @@ $(document).ready(function(){
   //当时extra职介选中时时需要同时改变job-tit的图片
   function extraTitChange(){
     if($(".extra-swiper").attr("class")=="swiper-container swiper-common extra-swiper  on current"){
+      //console.log(1);
       if(n==0 || n==-3){
         $box.children(".job-tit").removeClass().addClass('job-tit avenger')
       }else if(n==-1 || n==-4){
